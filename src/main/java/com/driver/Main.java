@@ -15,14 +15,12 @@ package com.driver;
      }
 
      public static void main(String[] args) {
-         int x = 1;
-         int y = 2;
-         int z = 3;
+        
 
          Main p = new Main();
-         System.out.println(p.product(x,y));
-         System.out.println(p.product(x,y,z));
-         System.out.println(p.product(x,y));
+         System.out.println(p.product(1,2));
+         System.out.println(p.product(1,2,3));
+         System.out.println(p.product(5.2,6.7));
      }
 
 
