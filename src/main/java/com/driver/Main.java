@@ -1,4 +1,4 @@
- class Main {    
+ 
    public class Main {
     public static void main(String[] args) {
         Product p = new Product();
@@ -11,5 +11,4 @@
         System.out.println("Result of product(3, 4, 5): " + result2);
         System.out.println("Result of product(2.5, 4.0): " + result3);
     }
-}
 }
