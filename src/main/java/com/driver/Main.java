@@ -1,14 +1,28 @@
-package com.driver; 
-   public class Main {
+public class Main {
     public static void main(String[] args) {
         Product p = new Product();
 
-        int result1 = p.product(3, 4);
-        int result2 = p.product(3, 4, 5);
-        double result3 = p.product(2.5, 4.0);
+        int result1 = p.product(2, 3);
+        System.out.println("Product of 2 and 3: " + result1);
 
-        System.out.println("Result of product(3, 4): " + result1);
-        System.out.println("Result of product(3, 4, 5): " + result2);
-        System.out.println("Result of product(2.5, 4.0): " + result3);
+        int result2 = p.product(4, 5, 6);
+        System.out.println("Product of 4, 5, and 6: " + result2);
+
+        double result3 = p.product(1.5, 2.5);
+        System.out.println("Product of 1.5 and 2.5: " + result3);
+    }
+}
+
+class Product {
+    public int product(int x, int y) {
+        return x * y;
+    }
+
+    public int product(int x, int y, int z) {
+        return x * y * z;
+    }
+
+    public double product(double x, double y) {
+        return x * y;
     }
 }
