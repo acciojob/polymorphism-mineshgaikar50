@@ -12,17 +12,3 @@ public class Main {
         System.out.println("Product of 1.5 and 2.5: " + result3);
     }
 }
-
-class Product {
-    public int product(int x, int y) {
-        return x * y;
-    }
-
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
-
-    public double product(double x, double y) {
-        return x * y;
-    }
-}
